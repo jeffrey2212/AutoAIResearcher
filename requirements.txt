@@ -1,0 +1,4 @@
+autollm
+pdfiminer.six
+langchain
+python-dotenv
