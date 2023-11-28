@@ -12,7 +12,7 @@ query_engine = AutoQueryEngine.from_defaults(
      embed_model = "defaul",  # ["default", "local:intfloat/multilingual-e5-large"]
  )
 
-response = query_engine.query ("Please give the summary of the document, \ 
-     'Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks'")
+response = query_engine.query ("Please give the summary of the document," +  
+     "'Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks'")
 
 print(response)
